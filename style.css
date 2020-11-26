@@ -1,0 +1,96 @@
+html{
+    background-image:url(gaspump.jpg);
+    background-size:cover;
+}
+
+main{
+    position:relative;
+    top:50%;
+    left:20%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:rgba(0, 0, 0, 0.555);
+    box-shadow: 6px 6px 5px black;
+    width:60%;
+    height:100%;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    font-size:60px;
+    position:relative;
+    top:-50%;
+    background-color:rgba(20, 31, 5, 0.76);
+    font-family: 'Teko', sans-serif;
+}
+
+h2{
+    position:relative;
+    top: -35%;
+    text-align:center;
+    color:white;
+    font-family: 'Teko', sans-serif;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content:center;
+}
+
+label{
+    font-family: 'Teko', sans-serif;
+    margin-top:40px;
+    color:white;
+}
+
+button{
+    margin:40px;
+    background-color:rgba(20, 31, 5, 0.76);
+    color:white;
+    border-radius:10%;
+    width:30%;
+}
+
+input{
+    border:1px solid rgba(20, 31, 5, 0.76);
+    width:35%;
+    height:2em;
+    border-radius:6%;
+}
+
+table{
+    border-collapse:collapse;
+    margin:auto;
+    background-color:rgba(20, 31, 5, 0.76);
+    margin-top:3%;
+}
+
+tr, td{
+    border:1px solid rgb(197, 184, 106);
+    color:white;
+    font-family: 'Teko', 'sans-serif';
+}
+
+.btn{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+
+@media (max-width:765px){
+    body{
+        background-size:cover;
+    }
+    h1{
+        font-size:25px;
+    }
+
+}
